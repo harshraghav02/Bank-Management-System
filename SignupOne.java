@@ -7,8 +7,6 @@ import java.awt.event.ActionListener;
 import java.util.*;
 import com.toedter.calendar.JDateChooser;
 
-import static com.sun.java.accessibility.util.AWTEventMonitor.addActionListener;
-
 public class SignupOne extends JFrame implements ActionListener {
     Random ran;
     JTextField ntf,ftf,mtf,atf,stf,ctf,ptf;
