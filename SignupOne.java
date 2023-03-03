@@ -100,8 +100,8 @@ public class SignupOne extends JFrame implements ActionListener {
         add(unmarried);
 
         ButtonGroup marrital = new ButtonGroup();
-        gendergrp.add(married);
-        gendergrp.add(unmarried);
+        marrital.add(married);
+        marrital.add(unmarried);
 
         JLabel address = new JLabel("ADDRESS: ");
         address.setFont(new Font("Raleway",Font.BOLD,16));
